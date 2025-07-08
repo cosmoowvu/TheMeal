@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# System
+.DS_Store
+.env
+
+# IDE
+.vscode/
