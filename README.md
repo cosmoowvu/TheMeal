@@ -26,7 +26,8 @@ A mobile app that uses React Native to allow users to search for recipes, can sa
 ## Installation
 
 bash
-- cd the meal -app
+- git clone https://github.com/your-username/the-meal-app.git
+cd the-meal-app
 - npm install -g expo-cli
 - npm install @react-native-async-storage/async-storage \
 @react-navigation/bottom-tabs \
