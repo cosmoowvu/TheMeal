@@ -5,10 +5,10 @@ A mobile app that uses React Native to allow users to search for recipes, can sa
 
 ## Features
 
-- **Search by Name** : Find recipes by texing the name of meal.
-- **Filter by Main Ingredient**: Select one main ingredient from list to fine matching recipes.
+- **Search by Name** : Find recipes by typing the name of meal.
+- **Filter by Main Ingredient**: Select one main ingredient from list to find matching recipes.
 - **Favorites**: Save favorite recipes it will be saved to Favorites screen. On Favorites screen can be removed by swipe.
-- **Recipe Detail**: View ingredients and how to cooking.
+- **Recipe Detail**: View ingredients and how to cook.
 - **Tab Navigation**: Simple UI using bottom tab navigation
 
 ## Technologies used
@@ -21,23 +21,14 @@ A mobile app that uses React Native to allow users to search for recipes, can sa
 
 ## API reference
 
-[TheMealBD] (https://www.themealdb.com/) - free open recipe API
+[TheMealBD](https://www.themealdb.com/) - free open recipe API
 
 ## Installation
 
-bash
-- git clone https://github.com/your-username/the-meal-app.git
+git clone https://github.com/your-username/the-meal-app.git
 cd the-meal-app
-- npm install -g expo-cli
-- npm install @react-native-async-storage/async-storage \
-@react-navigation/bottom-tabs \
-@react-navigation/native \
-@react-navigation/stack \
-axios \
-expo-status-bar \
-react-native-paper
-- npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated
-- expo install react-native-safe-area-context react-native-screens react-native-gesture-handler react-native-reanimated 
+npm install -g expo-cli
+npm install
 
 ## Dependencies
 
@@ -54,8 +45,9 @@ react-native-paper
 
 1. Install Node.js and npm
 2. Install Expo CLI
-3. Start the app (npm run android)
-4. Open Android emulator (Android studio)
+3. Start the app :
+   npx expo start
+5. Open Android emulator (Android studio)
 
 ## How to use the app
 
