@@ -26,9 +26,9 @@ A mobile app that uses React Native to allow users to search for recipes, can sa
 ## Installation
 
 git clone https://github.com/your-username/the-meal-app.git
-cd the-meal-app
-npm install -g expo-cli
-npm install
+- cd the-meal-app
+- npm install -g expo-cli
+- npm install
 
 ## Dependencies
 
